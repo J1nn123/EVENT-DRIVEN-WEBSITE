@@ -26,6 +26,9 @@ body {
     width: 800px;
     border: 2px solid #ccc;
     border-radius: 10px;
+    margin-left: 400px;
+    margin-top: 20px;
+    width:1000px ;
 }
 
 /* Info Display */
@@ -37,8 +40,9 @@ body {
     border-radius: 10px;
     overflow-y: auto;
     max-height: 500px;
-    margin-left: 20px;
+    margin-left: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
 }
 
 /* Card Style */
@@ -54,6 +58,7 @@ body {
     display: flex;
     gap: 10px;
     margin-top: 10px;
+    
 }
 
 #cardBtn {
@@ -63,6 +68,7 @@ body {
     border-radius: 3px;
     cursor: pointer;
     transition: opacity 0.3s ease;
+    
 }
 
 #cardBtn:hover {
@@ -84,6 +90,7 @@ body {
     flex-wrap: wrap;
     color: aliceblue;
     margin-top: 60px;
+   
 }
 
 .map:hover {
@@ -94,14 +101,16 @@ body {
 .vertical-navbar {
     position: fixed;
     top: 0;
-    left: -300px;
-    width: 300px;
+    left: -400px;
+    width: 350px;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
-    color: white;
+    color: rgb(0, 12, 244);
     padding: 10px;
     transition: transform 0.3s ease, left 0.3s ease;
+    font-weight: bold;
+   font-size: 20px;
 }
 
 .vertical-navbar.active {
@@ -117,7 +126,7 @@ body {
     border: none;
     padding: 10px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .close-btn {
@@ -138,17 +147,15 @@ body {
 .vertical-navbar ul {
     list-style: none;
     padding: 0;
-    margin: 10px 0;
+    
 }
 
-.vertical-navbar li {
-    margin: 10px 0;
-}
+
 
 .vertical-navbar li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 5px;
     display: block;
 }
 
@@ -171,16 +178,16 @@ body {
     align-items: center;
     display: flex;
     list-style: none;
-    margin-top: 400px;
+    
 }
 
 .socials li {
-    margin: 0px 1px 30px;
-    margin-left: 30px;
+    margin: 0px 1px 10px;
+    margin-left: 50px;
 }
 
 .socials i {
-    font-size: 34px;
+    font-size: 30px;
 }
 
 #fb:hover {
@@ -195,21 +202,35 @@ body {
     color: rgb(33, 31, 31);
 }
 
-/* Info Container */
-.info-container h2 {
-    width: 270px;
-    padding: 20px;
-    background: rgba(240, 240, 240, 0.7);
-    border: 2px solid #ccc;
-    border-radius: 8px;
-    text-align: center;
-    backdrop-filter: blur(8px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
 
 /* Headings */
 h2 {
     font-size: 30px;
     color: #5011e1;
     font-family: Arial, sans-serif;
+}
+.modern-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+   margin-left: 10px;
+}
+.reserve-btn {
+    background-color: #28a745; /* Bootstrap's success color */
+}
+
+.reserve-btn:hover {
+    background-color: #218838;
+}
+
+.occupy-btn {
+    background-color: #dc3545; /* Bootstrap's danger color */
+}
+
+.occupy-btn:hover {
+    background-color: #c82333;
 }
