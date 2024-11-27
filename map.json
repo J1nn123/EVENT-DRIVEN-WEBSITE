@@ -1,86 +1,194 @@
 {
-    "map_name": "Northern Bukidnon State College",
-    "map_id": "0001",
-    "map_lat": 8.359997,
-    "map_lng": 124.868352,
-    "map_polygon_vertices": [
-      [8.361465, 124.867623],
-      [8.358812, 124.867054],
-      [8.358302, 124.869071],
-      [8.361060, 124.869640]
-    ],
-    "map_pins": [
-      {
-        "pin_id": "0001",
-        "pin_name": "CCS Lab #1",
-        "pin_lat": 8.359609,
-        "pin_long": 124.869181,
-        "pin_num_pc": 32,
-        "pin_num_printers": 5,  
-        "pin_is_reserved": false,
-        "pin_is_occupied": false
-      },
-      {
-        "pin_id": "0002",
-        "pin_name": "CCS Lab #2",
-        "pin_lat": 8.359558,
-        "pin_long": 124.869184,
-        "pin_num_pc": 25,
-        "pin_num_printers": 2,  
-        "pin_is_reserved": false,
-        "pin_is_occupied": false
-      },
-      {
-        "pin_id": "0003",
-        "pin_name": "NBSC Admin Building",
-        "pin_lat": 8.359306,
-        "pin_long": 124.867870,
-        "pin_num_pc": 16,
-        "pin_num_printers": 3, 
-        "pin_is_reserved": false,
-        "pin_is_occupied": false
-      },
-      {
-        "pin_id": "0004",
-        "pin_name": "IMO Office",
-        "pin_lat":  8.360800,
-        "pin_long": 124.869463,
-        "pin_num_pc": 16,
-        "pin_num_printers": 4, 
-        "pin_is_reserved": false,
-        "pin_is_occupied": false
-      },
-      {
-        "pin_id": "0005",
-        "pin_name": "GEC Building",
-        "pin_lat":   8.359089,
-        "pin_long": 124.869055,
-        "pin_num_pc": 7,
-        "pin_num_printers": 7, 
-        "pin_is_reserved": false,
-        "pin_is_occupied": false
-      } ,
-      {
-        "pin_id": "0006",
-        "pin_name": "BSBA Building",
-        "pin_lat":   8.359158,
-        "pin_long": 124.868505,
-        "pin_num_pc": 10,
-        "pin_num_printers": 10, 
-        "pin_is_reserved": false,
-        "pin_is_occupied": false
-      },
-      {
-        "pin_id": "0007",
-        "pin_name": "NBCS Clinic",
-        "pin_lat":   8.359158,
-        "pin_long": 124.868221,
-        "pin_num_pc": 3,
-        "pin_num_printers": 3, 
-        "pin_is_reserved": false,
-        "pin_is_occupied": false
-      }
-     
-    ]
-  }
- 
+  "map_name": "Northern Bukidnon State College",
+  "map_id": "0001",
+  "map_lat": 8.359997,
+  "map_lng": 124.868352,
+  "map_polygon_vertices": [
+    [8.361465, 124.867623],
+    [8.358812, 124.867054],
+    [8.358302, 124.869071],
+    [8.361060, 124.869640]
+  ],
+  "map_pins": [
+    {
+      "pin_id": "0001",
+      "pin_name": "CCS Lab #1",
+      "pin_lat":  8.359747, 
+      "pin_long":  124.869235,
+      "pin_num_pc": 32,
+      "pin_num_printers": 5,
+      "pin_image_url": "location1.jpg",
+      "pin_is_reserved": false,
+      "pin_is_occupied": false,
+      "pin_polygon_vertices": [
+        [
+          8.359673, 124.869144],
+        [ 8.359662, 124.869235],
+        [8.359779, 124.869259],
+       [8.359789, 124.869154]
+      ]
+    },
+    {
+      "pin_id": "0002",
+      "pin_name": "CCS Lab #2",
+      "pin_lat": 
+      8.359489,
+      "pin_long":  124.869144,
+      "pin_num_pc": 25,
+      "pin_num_printers": 2,
+      "pin_image_url": "location1.jpg",
+      "pin_is_reserved": false,
+      "pin_is_occupied": false,
+      "pin_polygon_vertices": [
+        [8.359492, 124.869106],
+        [8.359479, 124.869195],
+        [8.359582, 124.869219],
+        [8.359638, 124.869136]
+      ]
+    },
+    {
+      "pin_id": "0003",
+      "pin_name": "NBSC Admin Building",
+      "pin_lat": 8.359306,
+      "pin_long": 124.867870,
+      "pin_num_pc": 16,
+      "pin_num_printers": 3,
+      "pin_image_url": "location1.jpg",
+      "pin_is_reserved": false,
+      "pin_is_occupied": false,
+      "pin_polygon_vertices": [
+        [8.359253, 124.867578],
+        [8.359144, 124.868026],
+        [8.359327, 124.868085],
+        [8.359436, 124.867634]
+       
+      ]
+    },
+    {
+      "pin_id": "0004",
+      "pin_name": "IMO Office",
+      "pin_lat": 8.360800,
+      "pin_long": 124.869463,
+      "pin_num_pc": 16,
+      "pin_num_printers": 4,
+      "pin_image_url": "location1.jpg",
+      "pin_is_reserved": false,
+      "pin_is_occupied": false,
+      "pin_polygon_vertices": [
+        [8.360596, 124.869345],
+        [8.360572, 124.869447],
+        [8.361052, 124.869557],
+        [8.361079, 124.869449]
+      ]
+    },
+    {
+      "pin_id": "0005",
+      "pin_name": "GEC Building",
+      "pin_lat": 8.359089,
+      "pin_long": 124.869055,
+      "pin_num_pc": 7,
+      "pin_num_printers": 7,
+      "pin_image_url": "location1.jpg",
+      "pin_is_reserved": false,
+      "pin_is_occupied": false,
+      "pin_polygon_vertices": [
+        [8.358991, 124.868988],
+        [8.358969, 124.869077],
+        [8.359415, 124.869179],
+        [8.359431, 124.869085]
+      ]
+    },
+    {
+      "pin_id": "0006",
+      "pin_name": "BSBA Building",
+      "pin_lat": 8.359158,
+      "pin_long": 124.868505,
+      "pin_num_pc": 10,
+      "pin_num_printers": 10,
+      "pin_image_url": "location1.jpg",
+      "pin_is_reserved": false,
+      "pin_is_occupied": false,
+      "pin_polygon_vertices": [
+        [8.359261, 124.868369],
+        [8.359152, 124.868348],
+        [8.359051, 124.868790],
+        [8.359160, 124.868814]
+      ]
+    },
+    {
+      "pin_id": "0007",
+      "pin_name": "NBCS Clinic",
+      "pin_lat": 8.359158,
+      "pin_long": 124.868221,
+      "pin_num_pc": 3,
+      "pin_num_printers": 3,
+      "pin_image_url": "location1.jpg",
+      "pin_is_reserved": false,
+      "pin_is_occupied": false,
+      "pin_polygon_vertices": [
+        [8.359253, 124.868141],
+        [8.359187, 124.868128],
+        [8.359147, 124.868297],
+        [8.359219, 124.868318]
+      ]
+    },
+    {
+      "pin_id": "0008",
+      "pin_name": "DPS PRINTING SHOP",
+      "pin_lat": 8.359922,
+      "pin_long":  124.867387,
+      "pin_num_pc": 1,
+      "pin_num_printers": 2,
+      "pin_image_url": "location1.jpg",
+      "pin_is_reserved": false,
+      "pin_is_occupied": false,
+      "pin_polygon_vertices": [
+        [8.359882, 124.867306],
+        [8.359840, 124.867432],
+        [8.359943, 124.867467],
+        [8.359970, 124.867336]
+      ]
+    },
+    {
+      "pin_id": "0009",
+      "pin_name": "NBSC STUDENT WELFARE CENTER BUILDING",
+      "pin_lat": 8.360267, 
+      "pin_long": 124.867497,
+      "pin_num_pc": 3,
+      "pin_num_printers": 3,
+      "pin_image_url": "./sc.jpg",
+      "pin_is_reserved": false,
+      "pin_is_occupied": false,
+      "pin_polygon_vertices": [
+        [8.359986, 124.867336],
+        [8.359941, 124.867462],
+        [8.360142, 124.867532],
+        [8.360140, 124.867572],
+        [8.360347, 124.867628],
+        [8.360368, 124.867580],
+        [8.360673, 124.867666],
+        [8.360705, 124.867534]
+      ]
+    } ,
+    {
+      "pin_id": "0010",
+      "pin_name": "FRAMEME PRINTING SHOP",
+      "pin_lat":  8.360623,
+      "pin_long": 124.867580,
+      "pin_num_pc": 1,
+      "pin_num_printers": 2,
+      "pin_image_url": "location1.jpg",
+      "pin_is_reserved": false,
+      "pin_is_occupied": false,
+      "pin_polygon_vertices": [
+        [8.360585, 124.867502],
+        [8.360546, 124.867628],
+        [8.360665, 124.867663],
+        [8.360702, 124.867537]
+      ]
+    }
+  ]
+}
+
+
+
