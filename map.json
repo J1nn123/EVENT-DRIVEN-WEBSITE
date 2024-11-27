@@ -1,0 +1,86 @@
+{
+    "map_name": "Northern Bukidnon State College",
+    "map_id": "0001",
+    "map_lat": 8.359997,
+    "map_lng": 124.868352,
+    "map_polygon_vertices": [
+      [8.361465, 124.867623],
+      [8.358812, 124.867054],
+      [8.358302, 124.869071],
+      [8.361060, 124.869640]
+    ],
+    "map_pins": [
+      {
+        "pin_id": "0001",
+        "pin_name": "CCS Lab #1",
+        "pin_lat": 8.359609,
+        "pin_long": 124.869181,
+        "pin_num_pc": 32,
+        "pin_num_printers": 5,  
+        "pin_is_reserved": false,
+        "pin_is_occupied": false
+      },
+      {
+        "pin_id": "0002",
+        "pin_name": "CCS Lab #2",
+        "pin_lat": 8.359558,
+        "pin_long": 124.869184,
+        "pin_num_pc": 25,
+        "pin_num_printers": 2,  
+        "pin_is_reserved": false,
+        "pin_is_occupied": false
+      },
+      {
+        "pin_id": "0003",
+        "pin_name": "NBSC Admin Building",
+        "pin_lat": 8.359306,
+        "pin_long": 124.867870,
+        "pin_num_pc": 16,
+        "pin_num_printers": 3, 
+        "pin_is_reserved": false,
+        "pin_is_occupied": false
+      },
+      {
+        "pin_id": "0004",
+        "pin_name": "IMO Office",
+        "pin_lat":  8.360800,
+        "pin_long": 124.869463,
+        "pin_num_pc": 16,
+        "pin_num_printers": 4, 
+        "pin_is_reserved": false,
+        "pin_is_occupied": false
+      },
+      {
+        "pin_id": "0005",
+        "pin_name": "GEC Building",
+        "pin_lat":   8.359089,
+        "pin_long": 124.869055,
+        "pin_num_pc": 7,
+        "pin_num_printers": 7, 
+        "pin_is_reserved": false,
+        "pin_is_occupied": false
+      } ,
+      {
+        "pin_id": "0006",
+        "pin_name": "BSBA Building",
+        "pin_lat":   8.359158,
+        "pin_long": 124.868505,
+        "pin_num_pc": 10,
+        "pin_num_printers": 10, 
+        "pin_is_reserved": false,
+        "pin_is_occupied": false
+      },
+      {
+        "pin_id": "0007",
+        "pin_name": "NBCS Clinic",
+        "pin_lat":   8.359158,
+        "pin_long": 124.868221,
+        "pin_num_pc": 3,
+        "pin_num_printers": 3, 
+        "pin_is_reserved": false,
+        "pin_is_occupied": false
+      }
+     
+    ]
+  }
+ 
